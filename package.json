@@ -1,20 +1,20 @@
 {
-  "name": "sls-base",
+  "name": "sls-node-base",
   "version": "1.0.0",
-  "description": "Codingly template for Serverless Framework projects",
-  "author": "Ariel Weinberger <ariel@codingly.io>",
+  "description": "Base Node.js Serverless Framework Template",
+  "author": "Vladislav Kovalskij <vladislav.kovalskij@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.25.0",
-    "babel-loader": "^7.1.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.4",
     "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-env": "^1.6.0",
-    "serverless-bundle": "^1.3.3",
-    "serverless-pseudo-parameters": "^2.5.0",
-    "webpack": "^4.35.2"
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "serverless-bundle": "^5.3.0",
+    "serverless-pseudo-parameters": "^2.6.1",
+    "webpack": "^5.72.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.639.0"
+    "aws-sdk": "^2.1115.0"
   }
 }
